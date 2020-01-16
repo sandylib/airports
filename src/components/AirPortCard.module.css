@@ -1,0 +1,39 @@
+.container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.content{
+  display: grid;
+  padding-right: 5%;
+  border-bottom: 1px solid #008dff;
+}
+
+.content .p{
+  font-size: 14px;
+  padding: 5px;
+}
+
+.content .h3{
+  font-size: 1.0rem;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 40px auto;
+  
+}
+
+.empty{
+  border:none
+}
+
+
+.arrow{
+  width: 35px;
+  height: 35px;
+  padding-top: 30%;
+ cursor: pointer;
+}
