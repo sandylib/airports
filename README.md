@@ -3,9 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-### `yarn` install missing packages
+### `yarn` 
+Install required packages
 
-### `yarn start` run application in local computer
+### `yarn start` 
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -13,6 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `yarn test`
 
+Run unit tests
 
-### `yarn test:coverage` see the coverage reporter
+### `yarn test:coverage` 
+
+see the coverage reporter
 
