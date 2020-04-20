@@ -10,7 +10,7 @@
 .content{
   display: grid;
   padding-right: 5%;
-  border-bottom: 1px solid #939393;
+  border-bottom: 1px solid var(--brown-grey);
 }
 
 .content .p{
@@ -36,7 +36,7 @@
   font-style: normal;
   line-height: 1.85;
   letter-spacing: normal;
-  background-color: #008dff;
+  background-color: var(--red);
   color: white;
 
 }

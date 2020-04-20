@@ -6,7 +6,7 @@
 .content{
   display: grid;
   padding-right: 5%;
-  border-bottom: 1px solid #008dff;
+  border-bottom: 1px solid var(--red);
 }
 
 .content .p{
@@ -23,6 +23,7 @@
 .item {
   display: grid;
   grid-template-columns: 40px auto;
+
   
 }
 
@@ -35,5 +36,5 @@
   width: 35px;
   height: 35px;
   padding-top: 30%;
- cursor: pointer;
+  cursor: pointer;
 }
