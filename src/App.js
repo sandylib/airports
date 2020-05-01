@@ -8,7 +8,7 @@ import {
 import {Home, Details} from './views/'
 
 
-export default function AppRouter() {
+export default function App() {
   return (
     <Router>
       <Switch>

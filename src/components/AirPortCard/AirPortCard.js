@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from './AirPortCard.module.css'
-import arrow from '../arrow-right-solid.svg'
+import arrow from '../../arrow-right-solid.svg'
 
 export const AirPortCard = ({airport, callback, idx}) => {
   return (

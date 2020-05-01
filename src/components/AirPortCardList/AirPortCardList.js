@@ -1,5 +1,5 @@
 import React from 'react'
-import {AirPortCard } from './'
+import {AirPortCard } from '../'
 import Styles from './AirPortCardList.module.css';
 
 export const AirPortCardList = ({airports, callback}) => {

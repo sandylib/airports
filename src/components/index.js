@@ -1,6 +1,6 @@
-import {AirPortCardList} from './AirPortCardList';
-import {AirPortDetials} from './AirPortDetials';
-import {AirPortCard} from './AirPortCard';
+import {AirPortCardList} from './AirPortCardList/AirPortCardList';
+import {AirPortDetials} from './AirPortDetials/AirPortDetials';
+import {AirPortCard} from './AirPortCard/AirPortCard';
 import {Loader} from './Loader/Loader';
 
 export {
