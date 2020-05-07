@@ -23,7 +23,7 @@ export const Home = () => {
   return (
     <div>
      {inprogress && <Loader />}
-     {!inprogress && <AirPortCardList airports={airports} callback={onHandleCallback}/>}
+     {!inprogress && airports && <AirPortCardList airports={airports} callback={onHandleCallback}/>}
      {hasError && <div>{hasError}</div>}
     </div>
   )

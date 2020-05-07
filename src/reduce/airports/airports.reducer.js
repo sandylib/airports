@@ -3,7 +3,7 @@
 import {
   FETCH_AIREPORTS_SUCCEED, 
   FETCH_AIREPORTS_FAILD, 
-  GET_AIRPORT_BY_CODE
+  GET_AIRPORT_BY_CODE_SUCCEED
  } from '../../constants/actionConstants';
 
 
@@ -30,9 +30,8 @@ const airportsReducer = (state=initalState, action) =>{
         hasError:action.error
       }
     
-    case GET_AIRPORT_BY_CODE:
-        const code = action.payload;
-        const airport = state.airports.find(e => e.airportCode === code);
+    case GET_AIRPORT_BY_CODE_SUCCEED:
+        const {airport, code} = action;
         return {
           ...state,
           airport,

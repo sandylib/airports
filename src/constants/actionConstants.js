@@ -4,6 +4,8 @@ export const FETCH_AIREPORTS_FAILD = 'wf/airports/FETCH_AIREPORTS_FAILD';
 
 
 export const GET_AIRPORT_BY_CODE = 'wf/airportDetails/GET_AIRPORT_BY_CODE';
+export const GET_AIRPORT_BY_CODE_SUCCEED = 'wf/airportDetails/GET_AIRPORT_BY_CODE_SUCCEED';
+export const GET_AIRPORT_BY_CODE_FAIL = 'wf/airportDetails/GET_AIRPORT_BY_CODE_FAIL';
 
 export const IN_PROGRESS = 'wf/airport/IN_PROGRESS';
 
